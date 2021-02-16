@@ -1,0 +1,143 @@
+
+/* Media query for menu */
+
+@media only screen and (max-width: 849px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        -webkit-transition: max-height 0.5s;
+        -moz-transition: max-height 0.5s;
+        -ms-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+        z-index: 10000;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;  
+    }
+    nav ul li a{
+        color: #ffffff;
+    }
+    .col-2{
+        flex-basis: 50%;
+    }
+    .col-3{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .col-4{
+        flex-basis: 50%;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+    /* Product Page */
+    .row-2 h2{
+        position: absolute;
+        left: 10%;
+        color: #333333;
+        font-size: 20px;
+    }
+    .row-2 select{
+        position: absolute;
+        right: 10%;
+    }
+
+    /*  Product Details Page */
+    .single-product .col-2 h1{
+        font-size: 36px;
+        line-height: 35px;
+     }
+    
+
+}
+
+/* Media query for less than 600px device */
+
+@media only screen and (max-width: 649px){
+    .logo img{
+        width: 90px;
+    }
+   
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    
+    .footer-col-2 img{
+        width: 120px;
+        margin-bottom:0;
+    }
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+        
+    }
+    
+    .footer h3{
+        margin-bottom: 10px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .footer li{
+        font-size: 14px;
+    }
+
+    /*  Product Page */
+    
+    .row-2 h2{
+        position: absolute;
+        left: 7%;
+        color: #333333;
+        font-size: 15px;
+    }
+    .row-2 select{
+        position: absolute;
+        right: 7%;
+    }
+
+    /*  Product Details Page */
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+       padding: 0 20px;
+    }
+    .single-product .col-2 h1{
+        font-size: 26px;
+        line-height: 32px;
+     }
+
+     /*  Cart Page */
+     .cart-page th, td{
+         font-size: 12px;
+     }
+     .cart-info p{
+         font-size: 12px;
+     }
+     .cart-page td img{
+        width: 70px;
+        height: 70px;
+        margin-right: 5px;
+    }
+    .cart-logo img{
+        width: 20px;
+        height: 20px;
+    }
+
+
+}
+
+
